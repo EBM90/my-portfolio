@@ -3,7 +3,7 @@ import './Projects.css'
 
 export default function Projects() {
     return (
-        <section class="section-tours" id="section-tours">
+        <section class="section-tours" id="section-projects">
                 <div class="u-center-text u-margin-bottom-big">
                     <h2 class="heading-secondary">
                         Some of my projects
@@ -36,7 +36,7 @@ export default function Projects() {
                                         <p class="card__price-only">Project #1</p>
                                         <p class="card__price-value">Avengers Assemble!</p>
                                     </div>
-                                    <a href="#popup" class="btn btn--white">Check it out!</a>
+                                    <a target='_blank' rel="noreferrer" href="https://ebm90.github.io/Avengers_Assemble/" class="btn btn--white">Check it out!</a>
                                 </div>
                             </div>
                        </div>
@@ -58,7 +58,7 @@ export default function Projects() {
                                         <li>Your closet in your pocket</li>
                                         <li>Social network with clothes</li>
                                         <li>Upload, create and edit...</li>
-                                        <li>Likes, follow, and get notifications</li>
+                                        <li>Likes, follow, and notifications</li>
                                     </ul>
                                 </div>
 
@@ -69,7 +69,7 @@ export default function Projects() {
                                         <p class="card__price-only">Project #2</p>
                                         <p class="card__price-value">DressApp</p>
                                     </div>
-                                    <a href="#popup" class="btn btn--white">Check it out!</a>
+                                    <a target='_blank' rel="noreferrer" href="http://dressappiron.herokuapp.com/" class="btn btn--white">Check it out!</a>
                                 </div>
                             </div>
                         </div>
@@ -102,7 +102,7 @@ export default function Projects() {
                                         <p class="card__price-only">Project #3</p>
                                         <p class="card__price-value">IronPadel</p>
                                     </div>
-                                    <a href="#popup" class="btn btn--white">Check it out!</a>
+                                    <a target='_blank' href="http://ironpadel.herokuapp.com/" rel="noreferrer" class="btn btn--white">Check it out!</a>
                                 </div>
                             </div>
                         </div>
@@ -110,7 +110,7 @@ export default function Projects() {
                 </div>
 
                 <div class="u-center-text u-margin-top-huge">
-                    <a href="#" class="btn btn--green">Check out my GitHub for more</a>
+                    <a target='_blank' href='https://github.com/EBM90' rel="noreferrer" class="btn btn--green">Check out my GitHub for more</a>
                 </div>
             </section>
     )

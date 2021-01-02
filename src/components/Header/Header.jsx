@@ -4,9 +4,9 @@ import './Header.css'
 export default function Header() {
     return (
         <header class="header">
-            <div class="header__logo-box">
+            {/* <div class="header__logo-box">
                 <img src="img/logo-white.png" alt="Logo" class="header__logo" />
-            </div>
+            </div> */}
 
             <div class="header__text-box">
                 <h1 class="heading-primary">
@@ -14,7 +14,7 @@ export default function Header() {
                     <span class="heading-primary--sub">to my portfolio</span>
                 </h1>
 
-                <a href="#section-tours" class="btn btn--white btn--animated">My projects</a>
+                <a href="#section-projects" class="btn btn--white btn--animated">My projects</a>
             </div>
         </header>
     )
