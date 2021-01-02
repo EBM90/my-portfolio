@@ -52,8 +52,8 @@
 }
 .header {
   height: 95vh;
-  background-image: linear-gradient(to right bottom, #3caea3e0 , #173f5fc9),
-    url("./hero.jpg");
+  background-image: 
+    url("./Picture1.png");
   background-size: cover;
   background-position: top;
   position: relative;
@@ -78,7 +78,7 @@
 
 .btn--white {
   background-color: #fff;
-  color: #173F5F;
+  color: #333;
 }
 .btn--white::after {
   background-color: #fff;

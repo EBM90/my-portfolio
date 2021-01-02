@@ -14,7 +14,7 @@ export default function Header() {
                     <span class="heading-primary--sub">to my portfolio</span>
                 </h1>
 
-                <a href="#section-tours" class="btn btn--white btn--animated">Checkout some of my projects</a>
+                <a href="#section-tours" class="btn btn--white btn--animated">My projects</a>
             </div>
         </header>
     )
