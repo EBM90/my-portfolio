@@ -14,9 +14,19 @@ export default function Navbar() {
 
             <nav class="navigation__nav">
                 <ul class="navigation__list">
+                   
+                    <label for="navi-toggle" >
                     <li class="navigation__item"><a href="#section-about" class="navigation__link">About me</a></li>
+                    </label>
+                    
+                    
+                    <label for="navi-toggle">
                     <li class="navigation__item"><a href="#section-contact" class="navigation__link">Contact me</a></li>
+                    </label>
+                    
+                    <label for="navi-toggle">
                     <li class="navigation__item"><a href="#section-projects" class="navigation__link">My projects</a></li>
+            </label>
                     </ul>
             </nav>
         </div>

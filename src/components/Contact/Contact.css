@@ -1,30 +1,38 @@
-/* color blue: #20639B 
- color dark blue: #173F5F
- turquoise: #3CAEA3 */
 
 .feature-box {
-    background-color: rgba(255, 255, 255, 0.8);
-    font-size: 1.5rem;
-    padding: 2.5rem;
-    text-align: center;
-    border-radius: 3px;
-    box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
-    transition: transform .3s; }
-    .feature-box__icon {
-      font-size: 6rem;
-      margin-bottom: .5rem;
-      display: inline-block;
-      background-image: linear-gradient(to right, #3CAEA3, #20639B );
-      -webkit-background-clip: text;
-      color: transparent; }
-    .feature-box:hover {
-      transform: translateY(-1.5rem) scale(1.03); }
+  background-color: rgba(255, 255, 255, 0.5);
+  font-size: 1.5rem;
+  padding: 2.5rem;
+  text-align: center;
+  border-radius: 3px;
+  box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s;
+  color: black;
+}
+.feature-box__icon {
+  font-size: 6rem;
+  margin-bottom: 0.5rem;
+  display: inline-block;
+  background-image: linear-gradient(to right, #3caea3, #20639b);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+.feature-box:hover {
+  transform: translateY(-1.5rem) scale(1.03);
+}
 
-      .section-features {
-        padding: 20rem 0;
-        background-image: linear-gradient(to right bottom, #3caea3e0 , #20649bd8 ), url('./nat-4.jpg');
-        background-size: cover;
-        transform: skewY(-7deg);
-        margin-top: -10rem; }
-        .section-features > * {
-          transform: skewY(7deg); }
+.section-features {
+  padding: 20rem 0;
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(51, 51, 51, 0.8),
+      rgba(51, 51, 51, 0.8)
+    ),
+    url("handshake.jpg");
+  background-size: cover;
+  transform: skewY(-7deg);
+  margin-top: -10rem;
+}
+.section-features > * {
+  transform: skewY(7deg);
+}

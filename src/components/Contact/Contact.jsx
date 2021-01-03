@@ -10,9 +10,9 @@ export default function Contact() {
                         <div class="feature-box">
                             <img src="/img/linkedin.png" alt="linkedin" style={{width: 80}} />
                             <h3 class="heading-tertiary u-margin-bottom-small">LinkedIn</h3>
-                            <p class="feature-box__text">
+                            <a class="feature-box__text" target='_blank' href='https://www.linkedin.com/in/eric-blair-martinez/' rel="noreferrer">
                                 Checkout my LinkedIn page
-                            </p>
+                            </a>
                         </div>
                     </div>
 
@@ -20,9 +20,9 @@ export default function Contact() {
                         <div class="feature-box">
                         <img src="/img/github-logo.png" alt="github" style={{width: 40}} />
                             <h3 class="heading-tertiary u-margin-bottom-small">GitHub</h3>
-                            <p class="feature-box__text">
+                            <a class="feature-box__text" target='_blank' href='https://github.com/EBM90' rel="noreferrer">
                                 See some of my other projects at GitHub
-                            </p>
+                            </a>
                         </div>
                     </div>
 
